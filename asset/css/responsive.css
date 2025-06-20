@@ -51,6 +51,7 @@
         width: 60%;
         background: #000;
         translate: -101%;
+        overflow-y: auto;
         z-index: 99;
         transition: all ease-in-out 0.3s;
     }
@@ -93,6 +94,7 @@
     }
     .nav__group {
         flex-direction: column;
+        
     }
     .nav__list-link {
         justify-content: space-between;
@@ -104,6 +106,18 @@
     .nav__list-icon {
         width: 10px;
         color: var(--color-btn);
+    }
+    .sub-menu {
+        width: 100%;
+        top: 70px;
+        left: 0;
+        right: initial;
+    }
+    .sub-menu a {
+        padding: 6px 30px;
+    }
+    .sub-menu__item span {
+        color: var(--color);
     }
     /* ================= hero ========================== */
 
@@ -215,7 +229,7 @@
     .note {
         font-size: 1.7rem;
     }
-    .heading{
+    .heading {
         font-size: 5rem;
     }
     /* ================= hero ========================== */
