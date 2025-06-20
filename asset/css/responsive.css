@@ -1,0 +1,324 @@
+.drawer-open,
+.nav-open,
+.drawer-close,
+.nav-icon,
+.nav-wrapper .logo {
+    display: none;
+}
+/* xl */
+@media (max-width: 1399.98px) {
+    .hero-img__stick-2 {
+        right: -29px;
+        width: 100px;
+        height: 100px;
+    }
+}
+/* lg */
+@media (max-width: 1199.98px) {
+    /* ========== hero ============= */
+    .hero-img__stick {
+        top: -70px;
+        left: -80px;
+        width: 160px;
+        height: 160px;
+    }
+    .hero-img__stick-2 {
+        /* top: -60px;
+        left: -75px; */
+    }
+    /* ========== hero ============= */
+    .awards__thumb {
+        padding: 10px;
+    }
+    /* ================= about hero ========================== */
+    .about-hero__heading,
+    .about-hero__desc {
+        width: 70%;
+    }
+    /* ================= gllery ========================== */
+    .gllery__stats-group {
+        gap: 75px;
+    }
+}
+/* md */
+@media (max-width: 991.98px) {
+    /* ================= nav ============= */
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 60%;
+        background: #000;
+        translate: -101%;
+        z-index: 99;
+        transition: all ease-in-out 0.3s;
+    }
+    .nav__link {
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav__logo {
+        padding: 20px;
+    }
+    .drawer-open,
+    .nav-open,
+    .drawer-close {
+        display: inline-block;
+    }
+    .nav__close {
+        padding: 20px;
+        cursor: pointer;
+    }
+    .nav__close-icon {
+        width: 10px;
+        color: var(--color-btn);
+    }
+    #drawer:checked ~ .nav {
+        translate: 0;
+    }
+    .drawer-overplay {
+        display: block;
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.6);
+        opacity: 0;
+        visibility: hidden;
+        transition: all ease-in-out 0.3s;
+    }
+    #drawer:checked ~ .drawer-overplay {
+        opacity: 1;
+        visibility: visible;
+        z-index: 98;
+    }
+    .nav__group {
+        flex-direction: column;
+    }
+    .nav__list-link {
+        justify-content: space-between;
+        padding: 20px 30px;
+    }
+    .nav__list span {
+        color: var(--color-btn);
+    }
+    .nav__list-icon {
+        width: 10px;
+        color: var(--color-btn);
+    }
+    /* ================= hero ========================== */
+
+    .hero__inner {
+        padding: 50px 0;
+    }
+    .hero-img {
+        margin-top: 150px;
+    }
+    .hero-img__thumb {
+        width: 100%;
+    }
+    .hero-img__desc {
+        width: 100%;
+    }
+    /* ================= story ========================== */
+    .story__inner {
+        margin-top: 50px;
+    }
+    /* ================= about ========================== */
+    .about__desc,
+    .about__heading {
+        width: 100%;
+    }
+    /* ================= about hero ========================== */
+    .about-hero__inner {
+        padding: 50px 0;
+    }
+    .about-hero__desc,
+    .about-hero__heading {
+        width: 100%;
+    }
+    /* ================= story ========================== */
+    .story .row {
+        flex-direction: column-reverse;
+    }
+    /* ================= gllery ========================== */
+    .gllery__inner {
+        margin-top: 50px;
+    }
+    .gllery__desc {
+        width: 70%;
+    }
+    .gllery__stats-group {
+        flex-direction: column;
+        gap: 50px;
+    }
+    /* ================= video ========================== */
+    .video__inner {
+        padding: 50px 0;
+    }
+    .video__info {
+        margin-bottom: 30px;
+    }
+    .video__desc {
+        width: 70%;
+    }
+    /* ================= team ========================== */
+    .team__inner {
+        padding: 40px 0;
+    }
+    .team__member {
+        margin-bottom: 40px;
+    }
+    .team__desc {
+        width: 70%;
+    }
+    /* ========== features ============= */
+    .features__info {
+        margin-top: 50px;
+    }
+    /* ========== awards ============= */
+    .awards__inner {
+        padding: 50px 0;
+    }
+    .awards__thumb {
+        padding: 0px;
+    }
+    /* ========== cta ============= */
+    .cta__desc {
+        width: 70%;
+    }
+    /* ========== testimonial ============= */
+    .testimonial-header__text {
+        width: 100%;
+    }
+    /* ============================== blog-page ================================= */
+    .blog-page {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .blog__group {
+        margin-top: 40px;
+    }
+    .blog-text__desc {
+        width: 65%;
+    }
+    .blog__btn {
+        margin-top: 40px;
+    }
+    /* ============================== contact page ================================= */
+    .contact-text__heading {
+        width: 100%;
+    }
+}
+/* sm */
+@media (max-width: 767.98px) {
+    .desc,
+    .note {
+        font-size: 1.7rem;
+    }
+    .heading{
+        font-size: 5rem;
+    }
+    /* ================= hero ========================== */
+    .hero-img__stick {
+        top: -70px;
+        left: -80px;
+    }
+    .hero-img__stick-2 {
+        right: -35px;
+        width: 84px;
+        height: 65px;
+    }
+    /* ================= about hero ========================== */
+    .about-hero__heading {
+        font-size: 5rem;
+    }
+    /* ================= about ========================== */
+    .about__inner {
+        padding: 30px 0;
+    }
+    .about__heading,
+    .about__desc {
+        padding-bottom: 15px;
+    }
+    .about__starts {
+        padding-bottom: 30px;
+    }
+    /* ================= services ========================== */
+    .services__inner {
+        padding: 50px 0;
+    }
+    /* ================= features ========================== */
+    .features__inner {
+        padding: 0;
+    }
+    .features__inner .row {
+        flex-direction: column-reverse;
+    }
+    .features-2 .features__inner {
+        padding: 50px 0;
+    }
+    /* ================= awards ========================== */
+    .awards__inner {
+        padding: 40px 0;
+    }
+    /* ================= testimonial ========================== */
+    .testimonial__inner {
+        padding: 50px 0;
+    }
+    .testimonial__header-text {
+        width: 100%;
+    }
+    /* ================= faq ========================== */
+    .faq__inner {
+        padding: 40px 0;
+    }
+
+    /* ================= gllery ========================== */
+    .gllery__desc {
+        width: 100%;
+    }
+    /* ================= video ========================== */
+    .video__desc {
+        width: 100%;
+    }
+    /* ================= team ========================== */
+    .team__desc {
+        width: 100%;
+    }
+    /* ================= cta ========================== */
+    .cta__inner {
+        padding: 50px 0;
+    }
+    .cta__desc {
+        width: 100%;
+    }
+    /* ================= footer ========================== */
+    .footer__inner {
+        padding: 30px 0;
+    }
+    .footer__group {
+        flex-direction: column;
+    }
+    .footer-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 20px;
+        padding-top: 20px;
+    }
+    /* ============================== blog-page ================================= */
+    .blog-text__desc {
+        width: 85%;
+    }
+    /* ============================== contact page ================================= */
+    .contact-text__heading {
+        font-size: 5rem;
+        width: 100%;
+    }
+    .contact-text__desc {
+        font-size: 1.7rem;
+    }
+}
+/* xs */
+@media (max-width: 575.98px) {
+}
