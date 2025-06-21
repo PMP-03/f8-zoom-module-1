@@ -1,0 +1,40 @@
+/* ====================== start hero  ========================== */
+.practice-hero__inner {
+    padding-top: 73px;
+    padding-bottom: 100px;
+    background: var(--inner-bg-1);
+}
+.practice-hero__content {
+    align-items: center;
+}
+.practice-hero__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.practice-hero__note {
+    padding-bottom: 12px;
+    font-weight: 400;
+    font-size: var(--font-size);
+    line-height: 30px;
+    text-align: center;
+}
+.practice-hero__heading {
+    padding-bottom: 18px;
+    width: 50%;
+    font-weight: 800;
+    font-size: 6rem;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--color);
+}
+.practice-hero__desc {
+    width: 50%;
+    color: var(--color);
+    text-align: center;
+}
+/* ====================== end hero ========================== */
+.practice-cta{
+    margin-top: 150px;
+}

@@ -47,7 +47,6 @@
     .heading,
     .heading-2 {
         width: 100%;
-        text-align: left;
     }
     /* ================= nav ============= */
     .nav {
@@ -156,6 +155,30 @@
     .about-hero__heading {
         width: 100%;
     }
+    /* ================= .services ========================== */
+    .services {
+        margin-top: 50px;
+    }
+    .services__info {
+        margin-bottom: 40px;
+    }
+    .services__group {
+        padding-bottom: 40px;
+    }
+    /* ================= features ========================== */
+    .features,
+    .features-2 {
+        margin-top: 50px;
+    }
+    .features-2 {
+        margin-bottom: 50px;
+    }
+    .features__inner .row {
+        flex-direction: column-reverse;
+    }
+    .features__info {
+        margin-top: 50px;
+    }
     /* ================= story ========================== */
     .story .row {
         flex-direction: column-reverse;
@@ -178,6 +201,11 @@
     .video__info {
         margin-bottom: 30px;
     }
+    .video__note,
+    .video__heading,
+    .video__desc {
+        text-align: center;
+    }
     .video__desc {
         width: 70%;
     }
@@ -191,10 +219,6 @@
     .team__desc {
         width: 70%;
     }
-    /* ========== features ============= */
-    .features__info {
-        margin-top: 50px;
-    }
     /* ========== awards ============= */
     .awards__inner {
         padding: 50px 0;
@@ -206,38 +230,73 @@
     .cta__desc {
         width: 70%;
     }
+    /* ============================== practice-cta ================================= */
+    .practice-cta{
+        margin-top: 50px;
+    }
     /* ========== testimonial ============= */
+    .testimonial{
+        margin-top: 50px;
+    }
     .testimonial-header__text {
         width: 100%;
+    }
+    .testimonial-header{
+        margin-bottom: 40px;
+    }
+    /* ============================== faq ================================= */
+    .faq{
+        margin-top: 50px;
+    }
+    .faq__group{
+        padding-top: 40px;
+    }
+    /* ============================== blog ================================= */
+    .blog{
+        margin: 50px 0;
+    }
+    .blog-header{
+        padding-bottom: 40px;
     }
     /* ============================== blog-page ================================= */
     .blog-page {
         margin-top: 40px;
         margin-bottom: 50px;
     }
-    .blog__group {
+    .blog-page .blog__group {
         margin-top: 40px;
     }
-    .blog-text__desc {
+    .blog-page .blog-text__desc {
         width: 65%;
     }
-    .blog__btn {
+    .blog-page .blog__btn {
         margin-top: 40px;
     }
     /* ============================== contact page ================================= */
     .contact-text__heading {
         width: 100%;
     }
+    /* ============================== services ================================= */
+    .services{
+        margin-top: 50px;
+    }
+    .contact-page{
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .contact-form{
+        margin-top: 30px;
+    }
 }
 /* sm */
 @media (max-width: 767.98px) {
-    .desc{
+    .desc {
         font-size: 1.7rem;
     }
-    .note{
+    .note {
         font-size: 1.4rem;
     }
-    .heading{
+    .heading {
         font-size: 5rem;
     }
     /* ================= hero ========================== */

@@ -341,8 +341,8 @@ header .container {
 }
 /* ====================== end about  ========================== */
 /* ====================== start services  ========================== */
-.services__inner {
-    padding: 150px 0;
+.services {
+    margin-top: 150px;
 }
 .services__info {
     margin-bottom: 70px;
@@ -386,8 +386,13 @@ header .container {
 }
 /* ====================== end services  ========================== */
 /* ====================== start features  ========================== */
+.features, .features-2{
+    margin-top: 150px;
+}
+.features-2{
+    margin-bottom: 150px;
+}
 .features__inner {
-    padding: 100px 0;
     background: var(--inner-bg-3);
     color: #fff;
 }
@@ -567,8 +572,8 @@ header .container {
 }
 /* ====================== end awards  ========================== */
 /* ====================== start testimonial  ========================== */
-.testimonial__inner {
-    padding: 150px 0;
+.testimonial{
+    margin-top: 150px;
 }
 .testimonial-header {
     display: flex;
@@ -662,8 +667,8 @@ header .container {
 }
 /* ====================== end testimonial  ========================== */
 /* ====================== start FAQ  ========================== */
-.faq__inner {
-    padding-bottom: 150px;
+.faq{
+    margin-top: 150px;
 }
 .faq__header {
     padding-bottom: 3px;
@@ -764,8 +769,8 @@ header .container {
 
 /* ====================== end FAQ  ========================== */
 /* ====================== start blog  ========================== */
-.blog__inner {
-    padding-bottom: 150px;
+.blog {
+    margin: 150px;
 }
 .blog__thumb {
     width: 100%;
