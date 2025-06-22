@@ -151,11 +151,11 @@
     background: transparent;
 }
 .gllery__btn-icon {
-    
     width: 6px;
     height: 6px;
     border-radius: 50%;
     background: var(--bg-color-3);
+    transition: all ease-in-out 0.3s;
 }
 .gllery__btn-item:hover .gllery__btn-icon {
     background: var(--bg-color);
